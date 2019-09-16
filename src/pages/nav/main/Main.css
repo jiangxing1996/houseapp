@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#Main{
+    background: #F1EEED;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.navBox{
+    width: 100%;
+    height: 2.6rem;
+    background: rgba(0, 0, 0, 0.178);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    
+}
+.searchBox{
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    width: 86%;
+    display: flex;
+    align-items: center;
+    color: #999;
+    position: relative;
+    top: -30px;
+    box-shadow: 0 2px 74px 0 rgba(0,0,0,.02), 0 2px 23px 0 rgba(0,0,0,.1);
+    z-index: 22;
+    margin:auto;
+}
+
+.searchBox img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.iocn_map{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.menuBox{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.1);
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    background-color: #fff;
+    position: relative;
+    min-height: 100px;
+    top: -40px;
+}
+
+.menuBox ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 36px;
+    background: #fff;
+    position: relative;
+}
+
+
+.menuBox ul li{
+    width: 25%;
+    height: 94px;
+    text-align: center;
+}
+
+.menuBox ul li p{
+    margin: 8px 0;
+    color: #616161;
+    font-size: 13px;
+}
+
+
+.menuIocn{
+    width: 50px;
+    height: 50px;
+}
+
+
+.funcBox{
+    background: #fff;
+    position: relative;
+    top: -40px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.funcBox .topBox{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.funcBox ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #fff;
+    
+}
+
+.funcBox ul li{
+    width: 25%;
+    height: 80px
+}
+
+.likeBox{
+    background: #fff;
+    position: relative;
+    top: -40px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.1);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.likeBox .likeImg,.likeBox .imgBox{
+    width: 100px;
+    height: 100px;
+}
+
+.likeBox ul{
+    list-style: none;
+    width: 100%;
+    background: #fff;
+}
+
+.likeBox ul li{
+    display: flex;
+    margin-top: 8px;
+}
+
+.likeBox ul li .content{
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.likeBox .content div:first-child{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.likeBox .content div{
+    color:#999;
+    margin-bottom: 5px;
+}

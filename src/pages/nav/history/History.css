@@ -1,0 +1,36 @@
+
+
+
+
+.historyBox .historyImg,.historyBox .imgBox{
+    width: 100px;
+    height: 100px;
+}
+
+.historyBox ul{
+    list-style: none;
+    width: 100%;
+    background: #fff;
+}
+
+.historyBox ul li{
+    display: flex;
+    margin-top: 8px;
+}
+
+.historyBox ul li .content{
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.historyBox .content div:first-child{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.historyBox .content div{
+    color:#999;
+    margin-bottom: 5px;
+}
